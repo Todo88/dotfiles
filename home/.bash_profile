@@ -46,6 +46,9 @@ export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.3/bin
 # Heroku toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+# mySQLPATH
+export PATH=$PATH:/usr/local/mysql/bin
+
 
 #SYSTEM ALIASES
 alias dir='ls'
@@ -111,8 +114,6 @@ alias copy_ssh='scp ~/.ssh/id_rsa.pub'
 alias checkout_live='git checkout live'
 alias checkout_master='git checkout master'
 alias merge_master='git merge master'
-
-alias sub='open $* -a /Applications/Sublime\ Text\ 2.app/'
 
 # UTILITY ALIASES
 #programming stuff

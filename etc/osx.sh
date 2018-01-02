@@ -192,7 +192,7 @@ defaults write org.m0k.transmission WarningLegal -bool false
 
 
 # Set scroll direction
-defaults write NSGlobalDomain com.apple.swipescrolldirection -bool false
+defaults write NSGlobalDomain com.apple.swipescrolldirection -bool true
 
 # Use smooth scrolling
 defaults write NSGlobalDomain AppleScrollAnimationEnabled -bool true
